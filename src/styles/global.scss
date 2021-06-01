@@ -30,7 +30,7 @@
 }
 
 body {
-  background: var(--gray-900);
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
   color: var(--white);
 }
 
@@ -40,7 +40,7 @@ textarea,
 select,
 a,
 button {
-  font: 400 1rem 'Gentium Book Basic', sans-serif;
+  font: 400 1rem 'Montserrat', sans-serif;
 }
 
 button {
