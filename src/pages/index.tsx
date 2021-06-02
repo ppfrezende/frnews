@@ -17,9 +17,11 @@ export default function Home({ product }: HomeProps) {
   return (
     <>
       <Head>
-        <title>Início | FRNews</title>
+        <title>Home | FRNews</title>
       </Head>
       <main className={styles.contentContainer}>
+        <img src="/images/avatar.svg" alt="Girl Power" />
+
         <section className={styles.hero}>
           <span>👏 Olá, bem-vindo!</span>
 
@@ -34,8 +36,6 @@ export default function Home({ product }: HomeProps) {
 
           <SubscribeButton priceId={product.priceId} />
         </section>
-
-        <img src="/images/avatar.svg" alt="Girl Power" />
       </main>
     </>
   );

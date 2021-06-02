@@ -12,6 +12,7 @@
 .hero {
   max-width: 600px;
   font-family: Alfa Slab One;
+  text-align: right;
 
   > span {
     font-size: 1.3rem;
@@ -42,5 +43,6 @@
   button {
     margin-top: 2.5rem;
     font-weight: bold;
+    float: right;
   }
 }
