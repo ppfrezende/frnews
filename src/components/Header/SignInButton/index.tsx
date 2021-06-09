@@ -13,7 +13,7 @@ export function SignInButton() {
       type="button"
       onClick={() => signOut()}
     >
-      <FaGoogle color="#04d361" />
+      <FaGoogle color="#61dafd" />
       {session.user.name}
       <FiX color="#737380" className={styles.closeIcon} />
     </button>
@@ -25,7 +25,7 @@ export function SignInButton() {
         signIn('google');
       }}
     >
-      <FaGoogle color="#eba417" />
+      <FaGoogle color="#e1e1e6" />
       Sign in with Google
     </button>
   );
